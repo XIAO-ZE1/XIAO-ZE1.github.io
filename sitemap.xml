@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xiaoze.github.io/xiaoze.github.io/manifest.json</loc>
+    
+    <lastmod>2025-01-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xiaoze.github.io/xiaoze.github.io/posts/371d898c.html</loc>
     
     <lastmod>2025-01-10</lastmod>
@@ -120,15 +129,6 @@
   
   <url>
     <loc>https://xiaoze.github.io/xiaoze.github.io/equipment/index.html</loc>
-    
-    <lastmod>2025-01-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaoze.github.io/xiaoze.github.io/manifest.json</loc>
     
     <lastmod>2025-01-08</lastmod>
     
