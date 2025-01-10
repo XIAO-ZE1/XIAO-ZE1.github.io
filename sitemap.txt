@@ -1,3 +1,4 @@
+https://xiaoze.github.io/xiaoze.github.io/link/index.html
 https://xiaoze.github.io/xiaoze.github.io/posts/371d898c.html
 https://xiaoze.github.io/xiaoze.github.io/posts/2013454d.html
 https://xiaoze.github.io/xiaoze.github.io/tags/index.html
@@ -14,7 +15,6 @@ https://xiaoze.github.io/xiaoze.github.io/json/music.json
 https://xiaoze.github.io/xiaoze.github.io/music/index.html
 https://xiaoze.github.io/xiaoze.github.io/about/index.html
 https://xiaoze.github.io/xiaoze.github.io/equipment/index.html
-https://xiaoze.github.io/xiaoze.github.io/manifest.json
 https://xiaoze.github.io/xiaoze.github.io/posts/16107.html
 https://xiaoze.github.io/xiaoze.github.io/categories/index.html
 https://xiaoze.github.io/xiaoze.github.io/posts/ddae.html
