@@ -11,6 +11,24 @@
   </url>
   
   <url>
+    <loc>https://xiao-ze1.github.io/todolist/index.html</loc>
+    
+    <lastmod>2025-01-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiao-ze1.github.io/posts/3458e8f8.html</loc>
+    
+    <lastmod>2025-01-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xiao-ze1.github.io/manifest.json</loc>
     
     <lastmod>2025-01-10</lastmod>
@@ -66,15 +84,6 @@
   
   <url>
     <loc>https://xiao-ze1.github.io/posts/b2daadad.html</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiao-ze1.github.io/posts/3458e8f8.html</loc>
     
     <lastmod>2025-01-09</lastmod>
     
@@ -176,15 +185,6 @@
     <loc>https://xiao-ze1.github.io/charts/index.html</loc>
     
     <lastmod>2024-12-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiao-ze1.github.io/todolist/index.html</loc>
-    
-    <lastmod>2024-12-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
