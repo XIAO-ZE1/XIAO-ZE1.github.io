@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://xiao-ze1.github.io/posts/15b5a328.html</loc>
+    <loc>https://xiao-ze1.github.io/posts/2370fd62.html</loc>
     
     <lastmod>2025-01-12</lastmod>
     
@@ -11,7 +11,16 @@
   </url>
   
   <url>
-    <loc>https://xiao-ze1.github.io/posts/5fbfd4a4.html</loc>
+    <loc>https://xiao-ze1.github.io/posts/68c5cdb9.html</loc>
+    
+    <lastmod>2025-01-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiao-ze1.github.io/posts/7dfab582.html</loc>
     
     <lastmod>2025-01-12</lastmod>
     
@@ -29,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://xiao-ze1.github.io/posts/80632b5b.html</loc>
+    <loc>https://xiao-ze1.github.io/posts/2015ed8.html</loc>
     
     <lastmod>2025-01-12</lastmod>
     
@@ -38,7 +47,25 @@
   </url>
   
   <url>
-    <loc>https://xiao-ze1.github.io/posts/2370fd62.html</loc>
+    <loc>https://xiao-ze1.github.io/posts/6e3d8d51.html</loc>
+    
+    <lastmod>2025-01-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiao-ze1.github.io/update/index.html</loc>
+    
+    <lastmod>2025-01-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiao-ze1.github.io/posts/6d7d5c2c.html</loc>
     
     <lastmod>2025-01-12</lastmod>
     
@@ -48,6 +75,33 @@
   
   <url>
     <loc>https://xiao-ze1.github.io/posts/a4d0465e.html</loc>
+    
+    <lastmod>2025-01-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiao-ze1.github.io/posts/80632b5b.html</loc>
+    
+    <lastmod>2025-01-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiao-ze1.github.io/posts/5fbfd4a4.html</loc>
+    
+    <lastmod>2025-01-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiao-ze1.github.io/posts/15b5a328.html</loc>
     
     <lastmod>2025-01-12</lastmod>
     
