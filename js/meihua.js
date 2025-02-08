@@ -543,10 +543,12 @@ function createWinbox() {
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mb19.webp)" class="pimgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mb19.webp)')"></a>
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mb19.webp)" class="pimgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mb19.webp)')"></a>
 <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mb19.webp)" class="pimgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mb19.webp)')"></a>
+</div>
 {% endfolding %}
 
+
 <h3>7. 壁纸API</h3>
-{% folding cyan, 查看适配手机的背景 %}
+{% folding cyan, 查看壁纸API %}
 <div class="bgbox">
 <a id="bingDayBox" rel="noopener external nofollow" style="background-image: url(https://bing.img.run/1920x1080.php)" class="box apiBox" onclick="changeBg('url(https://bing.img.run/1920x1080.php)')"></a>
 <a id="bingHistoryBox" rel="noopener external nofollow" style="background-image: url(https://bing.img.run/rand.php)" class="box apiBox" onclick="changeBg('url(https://bing.img.run/rand.php)')"></a>
@@ -556,7 +558,9 @@ function createWinbox() {
 <a id="waiBizhiBox" rel="noopener external nofollow" style="background-image: url(https://api.ixiaowai.cn/gqapi/gqapi.php)" class="box apiBox" onclick="changeBg('url(https://api.ixiaowai.cn/gqapi/gqapi.php)')"></a>
 <a id="btstuBox" rel="noopener external nofollow" style="background-image: url(http://api.btstu.cn/sjbz/?lx=suiji)" class="box apiBox" onclick="changeBg('url(http://api.btstu.cn/sjbz/?lx=suiji)')"></a>
 <a id="unsplashBox" rel="noopener external nofollow" style="background-image: url(https://source.unsplash.com/random/1920x1080/)" class="box apiBox" onclick="changeBg('url(https://source.unsplash.com/random/1920x1080/)')"></a>
+</div>
 {% endfolding %}
+
 
 <h3>8. 自定义背景</h3>
 {% folding cyan, 设置自定义背景 %}
@@ -570,12 +574,13 @@ function createWinbox() {
 <button class="winbox_btn" type="button" onclick="getPicture()" style="background:var(--theme-color);width:35%;padding: 5px 0px 7px 0px;border-radius:30px;color:white;line-height:2;">🌈切换背景🌈</button>
 </center>
 <p></p>
-
 {% endfolding %}
 
 <br>
 <center><div style="font-size:1.2em;color:var(--theme-color);font-weight:bold;">------ ( •̀ ω •́ )y 到底啦 ------</div></center>
 <br>
+
+</div>
 
 </div>
 
