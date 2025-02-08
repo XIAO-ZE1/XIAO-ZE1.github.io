@@ -219,10 +219,10 @@ if (localStorage.getItem("blogbg") != undefined) {
 } else {
     // 替换你自己的默认背景
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(xxx);
-    --darkmode-bg:url(xxx);
-    --mobileday-bg: url(xxx);
-    --mobilenight-bg: url(xxx);
+    --default-bg: url('/img/pc2.png');
+    --darkmode-bg:url('/img/pc3.png');
+    --mobileday-bg: url('/img/mobile2.png');
+    --mobilenight-bg: url('/img/mobile3.png');
   }`;
 }
 function changeBg(s) {
@@ -387,7 +387,7 @@ function createWinbox() {
   winResize();
   window.addEventListener("resize", winResize);
 
-// 每一类我放了一个演示，直接往下复制粘贴 a标签 就可以，需要注意的是 函数里面的链接 冒号前面需要添加反斜杠\进行转义
+  // 每一类我放了一个演示，直接往下复制粘贴 a标签 就可以，需要注意的是 函数里面的链接 冒号前面需要添加反斜杠\进行转义
   winbox.body.innerHTML = `
 <div class="settings" style="display: block;">
 <div id="article-container" style="padding:12px;">
@@ -425,9 +425,14 @@ function createWinbox() {
 </div>
 
 <h2>二、字体设置</h2>
-{% note warning modern %}非商免字体未经授权只能个人使用。本站为完全非商业、非盈利性质的网站，平时用于个人学习交流，如有侵权请联系站长删除，谢谢！ —— 致版权方{% endnote %}
+<p>{% note warning modern %}非商免字体未经授权只能个人使用。本站为完全非商业、非盈利性质的网站，平时用于个人学习交流，如有侵权请联系站长删除，谢谢！ —— 致版权方{% endnote %}</p>
 <p id="swfs">
 <a class="swf" id="swf_ZhuZiAWan" href="javascript:;" rel="noopener external nofollow" style="font-family:'ZhuZiAWan'!important;color:black" onclick="setFont('ZhuZiAWan')">筑紫A丸标准体2.0</a>
+<a class="swf" id="swf_MiSans" href="javascript:;" rel="noopener external nofollow" style="font-family:'MiSans'!important;color:black" onclick="setFont('MiSans')">MiSans</a>
+<a class="swf" id="swf_HarmonyOS" href="javascript:;" rel="noopener external nofollow" style="font-family:'HarmonyOS'!important;color:black" onclick="setFont('HarmonyOS')">HarmonyOS</a>
+<a class="swf" id="swf_SmileySans-Oblique" href="javascript:;" rel="noopener external nofollow" style="font-family:'SmileySans-Oblique'!important;color:black" onclick="setFont('SmileySans-Oblique')">得意黑</a>
+<a class="swf" id="swf_DingTalk-JinBuTi" href="javascript:;" rel="noopener external nofollow" style="font-family:'DingTalk-JinBuTi'!important;color:black" onclick="setFont('DingTalk-JinBuTi')">钉钉进步体</a>
+<a class="swf" id="swf_LXGWWenKai" href="javascript:;" rel="noopener external nofollow" style="font-family:'LXGWWenKai'!important;color:black" onclick="setFont('LXGWWenKai')">霞鹜文楷</a>
 <a class="swf" id="swf_default" href="javascript:;" rel="noopener external nofollow" style="font-family:-apple-system, IBM Plex Mono ,monosapce,'微软雅黑', sans-serif;!important;color:black" onclick="setFont('default')">系统默认</a>
 </p>
 
@@ -451,7 +456,15 @@ function createWinbox() {
 <h3>1. 二次元</h3>
 {% folding cyan, 查看二次元背景 %}
 <div class="bgbox">
-<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.ladydaily.com/img/home_bg.webp)" class="imgbox" onclick="changeBg('url(https\://sourcebucket.s3.ladydaily.com/img/home_bg.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/dm15.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/dm15.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/yuanshen1.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/yuanshen1.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/dm2.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/dm2.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/dm7.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/dm7.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/dm8.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/dm8.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/dm3.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/dm3.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/dm11.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/dm11.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://npm.elemecdn.com/ushio-api-img-moe@5.0.53/img_532_1920x1080_96_null_normal.jpg)" class="imgbox" onclick="changeBg('url(https://npm.elemecdn.com/ushio-api-img-moe@5.0.53/img_532_1920x1080_96_null_normal.jpg)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/dm12.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/dm12.webp)')"></a>
 </div>
 {% endfolding %}
 
@@ -460,8 +473,14 @@ function createWinbox() {
 
 {% folding cyan, 查看风景背景 %}
 <div class="bgbox">
-<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.ladydaily.com/img/fj1.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.ladydaily.com/img/fj1.webp)')"></a>
-
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/fj2.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/fj2.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/fj1.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/fj1.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/fj3.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/fj3.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/fj4.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/fj4.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/fj5.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/fj5.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/fj6.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/fj6.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/fj7.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/fj7.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/fj8.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/fj8.webp)')"></a>
 </div>
 {% endfolding %}
 
@@ -469,13 +488,27 @@ function createWinbox() {
 
 {% folding cyan, 查看萌宠背景 %}
 <div class="bgbox">
-<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.ladydaily.com/img/mc1.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.ladydaily.com/img/mc1.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mc1.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mc1.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mc2.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mc2.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mc3.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mc3.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mc4.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mc4.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mc5.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mc5.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mc6.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mc6.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mc7.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mc7.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mc8.webp)" class="imgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mc8.webp)')"></a>
 </div>
 {% endfolding %}
 
 <h3>4. 渐变色</h3>
 {% folding cyan, 查看渐变色背景 %}
 <div class="bgbox">
+<a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #544a7d, #ffd452)" onclick="changeBg('linear-gradient(to right, #544a7d, #ffd452)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to bottom, #7f7fd5, #86a8e7, #91eae4)" onclick="changeBg('linear-gradient(to bottom, #7f7fd5, #86a8e7, #91eae4)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to left, #654ea3, #eaafc8)" onclick="changeBg('linear-gradient(to left, #654ea3, #eaafc8)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to top, #feac5e, #c779d0, #4bc0c8)" onclick="changeBg('linear-gradient(to top, #feac5e, #c779d0, #4bc0c8)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to top, #d3959b, #bfe6ba)" onclick="changeBg('linear-gradient(to top, #d3959b, #bfe6ba)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to top, #8360c3, #2ebf91)" onclick="changeBg('linear-gradient(to top, #8360c3, #2ebf91)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to top, #108dc7, #ef8e38)" onclick="changeBg('linear-gradient(to top, #108dc7, #ef8e38)')"></a>
 <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to top, #355c7d, #6c5b7b, #c06c84)" onclick="changeBg('linear-gradient(to top, #355c7d, #6c5b7b, #c06c84)')"></a>
 </div>
 {% endfolding %}
@@ -484,7 +517,13 @@ function createWinbox() {
 <h3>5. 纯色</h3>
 {% folding cyan, 查看纯色背景 %}
 <div class="bgbox">
-<a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #f7eff5" onclick="changeBg('#f7eff5')"></a>  
+<a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #ecb1b1" onclick="changeBg('#ecb1b1')"></a>
+<a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #d3ebac" onclick="changeBg('#d3ebac')"></a>
+<a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #ace9ce" onclick="changeBg('#ace9ce')"></a>
+<a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #c1ebea" onclick="changeBg('#c1ebea')"></a>
+<a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #dee7f1" onclick="changeBg('#dee7f1')"></a>
+<a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #e9e3f2" onclick="changeBg('#e9e3f2')"></a>
+<a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #f7eff5" onclick="changeBg('#f7eff5')"></a> 
 <input type="color" id="colors" href="javascript:;" rel="noopener external nofollow" class="box" autocomplete="on" value="${defineColor}" oninput="changeBgColor()"></input>
 </div>
 {% endfolding %}
@@ -494,18 +533,44 @@ function createWinbox() {
 <h3>6. 适配手机</h3>
 {% folding cyan, 查看适配手机的背景 %}
 <div class="bgbox">
-<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.ladydaily.com/img/mb4.webp)" class="pimgbox" onclick="changeBg('url(https\://sourcebucket.s3.ladydaily.com/img/mb4.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mb4.webp)" class="pimgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mb4.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mb5.webp)" class="pimgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mb5.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mb6.webp)" class="pimgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mb6.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mb7.webp)" class="pimgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mb7.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mb8.webp)" class="pimgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mb8.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mb9.webp)" class="pimgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mb9.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mb16.webp)" class="pimgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mb16.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mb19.webp)" class="pimgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mb19.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mb19.webp)" class="pimgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mb19.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://sourcebucket.s3.bitiful.net/img/mb19.webp)" class="pimgbox" onclick="changeBg('url(https://sourcebucket.s3.bitiful.net/img/mb19.webp)')"></a>
 {% endfolding %}
 
+<h3>7. 壁纸API</h3>
+{% folding cyan, 查看适配手机的背景 %}
+<div class="bgbox">
+<a id="bingDayBox" rel="noopener external nofollow" style="background-image: url(https://bing.img.run/1920x1080.php)" class="box apiBox" onclick="changeBg('url(https://bing.img.run/1920x1080.php)')"></a>
+<a id="bingHistoryBox" rel="noopener external nofollow" style="background-image: url(https://bing.img.run/rand.php)" class="box apiBox" onclick="changeBg('url(https://bing.img.run/rand.php)')"></a>
+<a id="EEEDogBox" rel="noopener external nofollow" style="background-image: url(https://api.yimian.xyz/img?type=moe&amp;size=1920x1080)" class="box apiBox" onclick="changeBg('url(https://api.yimian.xyz/img?type=moe&amp;size=1920x1080)')"></a>
+<a id="seovxBox" rel="noopener external nofollow" style="background-image: url(https://cdn.seovx.com/?mom=302)" class="box apiBox" onclick="changeBg('url(https://cdn.seovx.com/?mom=302)')"></a>
+<a id="picsumBox" rel="noopener external nofollow" style="background-image: url(https://picsum.photos/1920/1080.webp)" class="box apiBox" onclick="changeBg('url(https://picsum.photos/1920/1080.webp)')"></a>
+<a id="waiBizhiBox" rel="noopener external nofollow" style="background-image: url(https://api.ixiaowai.cn/gqapi/gqapi.php)" class="box apiBox" onclick="changeBg('url(https://api.ixiaowai.cn/gqapi/gqapi.php)')"></a>
+<a id="btstuBox" rel="noopener external nofollow" style="background-image: url(http://api.btstu.cn/sjbz/?lx=suiji)" class="box apiBox" onclick="changeBg('url(http://api.btstu.cn/sjbz/?lx=suiji)')"></a>
+<a id="unsplashBox" rel="noopener external nofollow" style="background-image: url(https://source.unsplash.com/random/1920x1080/)" class="box apiBox" onclick="changeBg('url(https://source.unsplash.com/random/1920x1080/)')"></a>
+{% endfolding %}
 
-<h3>7. 自定义背景</h3>
+<h3>8. 自定义背景</h3>
 {% folding cyan, 设置自定义背景 %}
-<p><center>
+<p></p>
+<center>
 <input type="text" id="pic-link" size="70%" maxlength="1000" placeholder="请输入有效的图片链接，如 https://source.fomal.cc/img/home_bg.webp">
-</center></p>
-<p><center>
-<button type="button" onclick="getPicture()" style="background:var(--theme-color);width:35%;padding: 5px 0px 7px 0px;border-radius:30px;color:white;line-height:2;">🌈切换背景🌈</button>
-</center></p>
+</center>
+<p></p>
+<p></p>
+<center>
+<button class="winbox_btn" type="button" onclick="getPicture()" style="background:var(--theme-color);width:35%;padding: 5px 0px 7px 0px;border-radius:30px;color:white;line-height:2;">🌈切换背景🌈</button>
+</center>
+<p></p>
+
 {% endfolding %}
 
 <br>

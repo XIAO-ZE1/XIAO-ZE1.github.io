@@ -29,11 +29,47 @@
 
 /* 字体引入（这里需要根据你自己想要待选的字体进行引入） */
 @font-face {
-    font-family: xxx;
-    src: url(xxx);
+    font-family: 'SmileySans-Oblique';
+    src: url('../../fonts/SmileySans-Oblique.otf.woff2') format('woff2');
     font-display: swap;
+    font-weight: normal;
+    font-style: normal;
 }
-
+@font-face {
+    font-family: 'DingTalk-JinBuTi';
+    src: url('../../fonts/DingTalk-JinBuTi.woff2') format('woff2');
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ZhuZiAWan';
+    src: url('../../fonts/ZhuZiAWan-2.ttc') format('truetype');
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LXGWWenKai';
+    src: url('../../fonts/LXGWWenKai-Light.ttf') format('truetype');
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MiSans';
+    src: url('../../fonts/MiSans-Regular.woff2') format('woff2');
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HarmonyOS';
+    src: url('../../fonts/HarmonyOS_Sans_Regular.woff2') format('woff2');
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* winbox样式(这块照抄即可) */
 .winbox {
@@ -296,9 +332,9 @@ blockquote {
     color: var(--theme-color);
 }
 
-#nav *::after {
+/* #nav *::after {
     background-color: var(--theme-color) !important;
-}
+} */
 
 .article-sort {
     border-left: 2px solid var(--theme-color);
@@ -495,8 +531,10 @@ div#archive {
     font-size: 20px;
     background-color: white;
     /* 字体选择框边界由js指定 */
-    /* border: 2px solid var(--border-color); */
+    border: 2px solid var(--border-color);
     border-radius: 10px !important;
+    height: 40px;
+    text-align: center;
     margin: 10px;
 }
 
