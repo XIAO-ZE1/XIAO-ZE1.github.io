@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xiao-ze1.github.io/posts/812d49a5.html</loc>
+    
+    <lastmod>2025-02-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiao-ze1.github.io/posts/fb119535.html</loc>
+    
+    <lastmod>2025-02-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xiao-ze1.github.io/update/index.html</loc>
     
     <lastmod>2025-02-09</lastmod>
@@ -11,9 +29,9 @@
   </url>
   
   <url>
-    <loc>https://xiao-ze1.github.io/posts/6d7d5c2c.html</loc>
+    <loc>https://xiao-ze1.github.io/posts/a4d0465e.html</loc>
     
-    <lastmod>2025-02-08</lastmod>
+    <lastmod>2025-02-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -21,6 +39,42 @@
   
   <url>
     <loc>https://xiao-ze1.github.io/posts/371d898c.html</loc>
+    
+    <lastmod>2025-02-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiao-ze1.github.io/categories/index.html</loc>
+    
+    <lastmod>2025-02-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiao-ze1.github.io/tags/index.html</loc>
+    
+    <lastmod>2025-02-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiao-ze1.github.io/beauty/index.html</loc>
+    
+    <lastmod>2025-02-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiao-ze1.github.io/posts/6d7d5c2c.html</loc>
     
     <lastmod>2025-02-08</lastmod>
     
@@ -120,15 +174,6 @@
   
   <url>
     <loc>https://xiao-ze1.github.io/posts/6e3d8d51.html</loc>
-    
-    <lastmod>2025-02-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiao-ze1.github.io/posts/a4d0465e.html</loc>
     
     <lastmod>2025-02-07</lastmod>
     
@@ -1307,7 +1352,7 @@
   </url>
   
   <url>
-    <loc>https://xiao-ze1.github.io/diary/2024.5/2024-5-27.html</loc>
+    <loc>https://xiao-ze1.github.io/diary/2024.5/2024-5-28.html</loc>
     
     <lastmod>2025-02-06</lastmod>
     
@@ -1316,7 +1361,7 @@
   </url>
   
   <url>
-    <loc>https://xiao-ze1.github.io/diary/2024.5/2024-5-28.html</loc>
+    <loc>https://xiao-ze1.github.io/diary/2024.5/2024-5-27.html</loc>
     
     <lastmod>2025-02-06</lastmod>
     
@@ -3035,15 +3080,6 @@
   </url>
   
   <url>
-    <loc>https://xiao-ze1.github.io/tags/index.html</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xiao-ze1.github.io/essay/index.html</loc>
     
     <lastmod>2025-01-08</lastmod>
@@ -3081,15 +3117,6 @@
   
   <url>
     <loc>https://xiao-ze1.github.io/equipment/index.html</loc>
-    
-    <lastmod>2025-01-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiao-ze1.github.io/categories/index.html</loc>
     
     <lastmod>2025-01-08</lastmod>
     
@@ -3152,20 +3179,6 @@
 
   
   <url>
-    <loc>https://xiao-ze1.github.io/tags/Markdown/</loc>
-    <lastmod>2025-02-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiao-ze1.github.io/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
-    <lastmod>2025-02-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://xiao-ze1.github.io/tags/life/</loc>
     <lastmod>2025-02-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -3188,6 +3201,27 @@
   
   <url>
     <loc>https://xiao-ze1.github.io/tags/Git/</loc>
+    <lastmod>2025-02-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiao-ze1.github.io/tags/Markdown/</loc>
+    <lastmod>2025-02-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiao-ze1.github.io/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
+    <lastmod>2025-02-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiao-ze1.github.io/tags/%E9%AD%94%E6%B3%95/</loc>
     <lastmod>2025-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
