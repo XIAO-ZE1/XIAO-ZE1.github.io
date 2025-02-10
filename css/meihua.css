@@ -673,3 +673,28 @@ input[name="colors"] {
     border: 3px solid var(--color-blackgray);
     background-color: var(--color-blackgray);
 }
+
+/* 个人信息卡片背景图 */
+[data-theme="light"] #aside-content>.card-widget.card-info {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), #ccc), url(/img/mobile2.png);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 100%;
+    transition: background-image 0.3s ease;
+}
+
+[data-theme="light"] #aside-content>.card-widget.card-info:hover {
+    background-image: url(/img/mobile2.png);
+}
+
+[data-theme="dark"] #aside-content>.card-widget.card-info {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), #666), url(/img/mobile3.png);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 100%;
+    transition: background-image 0.3s ease;
+}
+
+[data-theme="dark"] #aside-content>.card-widget.card-info:hover {
+    background-image: url(/img/mobile3.png);
+}
