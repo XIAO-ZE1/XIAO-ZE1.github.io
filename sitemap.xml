@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xiao-ze1.github.io/picture/index.html</loc>
+    
+    <lastmod>2025-02-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xiao-ze1.github.io/posts/abb90a24.html</loc>
     
     <lastmod>2025-02-10</lastmod>
@@ -255,15 +264,6 @@
   
   <url>
     <loc>https://xiao-ze1.github.io/posts/6e3d8d51.html</loc>
-    
-    <lastmod>2025-02-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiao-ze1.github.io/picture/index.html</loc>
     
     <lastmod>2025-02-10</lastmod>
     
