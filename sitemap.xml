@@ -2,9 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xiao-ze1.github.io/posts/aa7b858b.html</loc>
+    
+    <lastmod>2025-02-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiao-ze1.github.io/update/index.html</loc>
+    
+    <lastmod>2025-02-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xiao-ze1.github.io/picture/index.html</loc>
     
-    <lastmod>2025-02-10</lastmod>
+    <lastmod>2025-02-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiao-ze1.github.io/beauty/index.html</loc>
+    
+    <lastmod>2025-02-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -272,25 +299,7 @@
   </url>
   
   <url>
-    <loc>https://xiao-ze1.github.io/update/index.html</loc>
-    
-    <lastmod>2025-02-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xiao-ze1.github.io/posts/371d898c.html</loc>
-    
-    <lastmod>2025-02-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiao-ze1.github.io/beauty/index.html</loc>
     
     <lastmod>2025-02-10</lastmod>
     
@@ -3181,7 +3190,7 @@
 
   <url>
     <loc>https://xiao-ze1.github.io/</loc>
-    <lastmod>2025-02-10</lastmod>
+    <lastmod>2025-02-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -3189,70 +3198,70 @@
   
   <url>
     <loc>https://xiao-ze1.github.io/tags/test/</loc>
-    <lastmod>2025-02-10</lastmod>
+    <lastmod>2025-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xiao-ze1.github.io/tags/hexo/</loc>
-    <lastmod>2025-02-10</lastmod>
+    <lastmod>2025-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xiao-ze1.github.io/tags/Git/</loc>
-    <lastmod>2025-02-10</lastmod>
+    <lastmod>2025-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xiao-ze1.github.io/tags/Markdown/</loc>
-    <lastmod>2025-02-10</lastmod>
+    <lastmod>2025-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xiao-ze1.github.io/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
-    <lastmod>2025-02-10</lastmod>
+    <lastmod>2025-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xiao-ze1.github.io/tags/%E9%AD%94%E6%B3%95/</loc>
-    <lastmod>2025-02-10</lastmod>
+    <lastmod>2025-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xiao-ze1.github.io/tags/%E5%A4%A7%E5%AD%A6/</loc>
-    <lastmod>2025-02-10</lastmod>
+    <lastmod>2025-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xiao-ze1.github.io/tags/%E9%AD%94%E6%94%B9/</loc>
-    <lastmod>2025-02-10</lastmod>
+    <lastmod>2025-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xiao-ze1.github.io/tags/CDN/</loc>
-    <lastmod>2025-02-10</lastmod>
+    <lastmod>2025-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xiao-ze1.github.io/tags/web/</loc>
-    <lastmod>2025-02-10</lastmod>
+    <lastmod>2025-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -3261,21 +3270,21 @@
   
   <url>
     <loc>https://xiao-ze1.github.io/categories/life/</loc>
-    <lastmod>2025-02-10</lastmod>
+    <lastmod>2025-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xiao-ze1.github.io/categories/blog/</loc>
-    <lastmod>2025-02-10</lastmod>
+    <lastmod>2025-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://xiao-ze1.github.io/categories/%E6%B1%87%E6%80%BB%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2025-02-10</lastmod>
+    <lastmod>2025-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
